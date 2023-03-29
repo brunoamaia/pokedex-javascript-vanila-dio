@@ -1,0 +1,106 @@
+.cardDetail .body {
+    cursor: auto;
+}
+
+.cardDetail button {
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.cardDetail #backToList {
+    width: 6rem;
+    margin-bottom: 0.5rem;
+}
+
+.cardDetail .header {
+    padding: 0.7rem 0;
+}
+
+.cardDetail .header .label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardDetail .header .number {
+    font-size: 1.0rem;
+}
+
+.cardDetail .header .types {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.cardDetail .header .types .type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    width: 100px;
+    height: 1.5rem;
+    border-radius: 1rem;
+    filter: brightness(0.95);
+}
+
+.cardDetail .center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.cardDetail .center button {
+    width: 3rem;
+}
+
+.cardDetail .center .types {
+    display: flex;
+    gap: 20px;
+}
+
+.cardDetail img {
+    height: 150px;
+    max-width: 180px;
+    z-index: 1;
+}
+
+.cardDetail .footer {
+    background-color: #DDD;
+    border-radius: 1rem;
+    margin: -1rem;
+    padding-top: 2rem;
+}
+
+.cardDetail .status {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem;
+}
+
+.cardDetail .attribute {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.cardDetail .status .separator {
+    position: absolute;
+    height: 58%;
+    border: solid 2px #555;
+    border-radius: 4px;
+}
+
+
+.hideCardDetail {
+    display: none;
+}
+
+@media screen and (min-width: 576px) {
+    .cardDetail img {
+        height: 200px;
+        max-width: 220px;
+    }
+}
